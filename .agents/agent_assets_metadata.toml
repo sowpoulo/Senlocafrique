@@ -1,0 +1,62 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "IALA96AY1YgJDFAiCmKYr"
+uri = "file://artifacts/sen-loc-afrique/public/images/hero-bg.jpg"
+type = "image"
+title = "dark luxury sedan car parked at night in city cinematic lighting"
+
+[[outputs]]
+id = "5c2YuaQEGCDhUWz9b1inc"
+uri = "file://artifacts/sen-loc-afrique/public/images/cars/dacia-sandero.jpg"
+type = "image"
+title = "dark grey compact hatchback car isolated premium studio lighting"
+
+[[outputs]]
+id = "5Xx-8BndIO1CdpsJmH3iN"
+uri = "file://artifacts/sen-loc-afrique/public/images/cars/renault-clio.jpg"
+type = "image"
+title = "black compact hatchback car sleek design isolated"
+
+[[outputs]]
+id = "pQOWhjd1lGDDURfb9UsUy"
+uri = "file://artifacts/sen-loc-afrique/public/images/cars/peugeot-208.jpg"
+type = "image"
+title = "dark blue compact car premium isolated"
+
+[[outputs]]
+id = "EtPrHNbKp-e3JQP562QOu"
+uri = "file://artifacts/sen-loc-afrique/public/images/cars/dacia-logan.jpg"
+type = "image"
+title = "silver sedan car premium studio lighting"
+
+[[outputs]]
+id = "T9yGFtlEGlSqO7To-wW-T"
+uri = "file://artifacts/sen-loc-afrique/public/images/cars/renault-megane.jpg"
+type = "image"
+title = "black sedan car sleek design premium"
+
+[[outputs]]
+id = "qTwViw9ylTgtEh-Ntiy8t"
+uri = "file://artifacts/sen-loc-afrique/public/images/cars/vw-golf.jpg"
+type = "image"
+title = "dark grey hatchback car premium studio lighting"
+
+[[outputs]]
+id = "62-yTwoScsjjVz92KQRw2"
+uri = "file://artifacts/sen-loc-afrique/public/images/cars/dacia-duster.jpg"
+type = "image"
+title = "black SUV sleek design premium studio lighting"
+
+[[outputs]]
+id = "VDtDXVmT7aMUX8HYE0rgD"
+uri = "file://artifacts/sen-loc-afrique/public/images/cars/hyundai-tucson.jpg"
+type = "image"
+title = "dark blue SUV premium studio lighting"
+
+[[outputs]]
+id = "OOotgCZI8m2TkOBFNqlog"
+uri = "file://artifacts/sen-loc-afrique/public/images/cars/toyota-rav4.jpg"
+type = "image"
+title = "black Toyota SUV sleek premium"

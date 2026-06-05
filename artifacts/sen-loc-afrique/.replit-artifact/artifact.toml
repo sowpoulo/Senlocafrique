@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "SEN LOC AFRIQUE"
+version = "1.0.0"
+id = "artifacts/sen-loc-afrique"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21136
+
+[services.development]
+run = "pnpm --filter @workspace/sen-loc-afrique run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sen-loc-afrique", "run", "build" ]
+publicDir = "artifacts/sen-loc-afrique/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21136"
+BASE_PATH = "/"

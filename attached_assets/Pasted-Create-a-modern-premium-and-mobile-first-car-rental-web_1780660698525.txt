@@ -1,0 +1,117 @@
+Create a modern, premium and mobile-first car rental website for a company called "SEN LOC AFRIQUE" based in Casablanca, Morocco.
+
+Company Information:
+- Company Name: SEN LOC AFRIQUE
+- Slogan: Location Tous Types de Véhicules
+- Location: Casablanca, Morocco
+- Phone: 0521387181
+- Mobile 1: +212 6 31 79 03 30
+- Mobile 2: +212 7 81 16 37 26
+- Main CTA: Order via WhatsApp
+
+Business Description:
+SEN LOC AFRIQUE provides short-term and long-term vehicle rentals for individuals, tourists, business travelers and companies. The company offers city cars, sedans, SUVs, luxury cars and utility vehicles.
+
+Design Requirements:
+- Premium and professional design
+- Colors inspired by the company logo:
+  - Black
+  - Gold
+  - White
+- Luxury automotive style
+- Mobile-first responsive design
+- Modern animations and smooth scrolling
+- Fast loading and SEO optimized
+
+Pages:
+
+1. Home Page
+- Hero section with luxury car background
+- Company logo
+- Main title:
+  "Location de Voitures à Casablanca"
+- Subtitle:
+  "Des véhicules fiables et adaptés à tous vos besoins."
+- Call To Action buttons:
+  - Réserver via WhatsApp
+  - Nous appeler
+
+2. Fleet Page
+Vehicle categories:
+- Citadines
+- Berlines
+- SUV
+- Véhicules Utilitaires
+- Véhicules Premium
+
+Each vehicle card should include:
+- Vehicle image
+- Name
+- Daily price
+- Transmission
+- Fuel type
+- WhatsApp reservation button
+
+3. About Us
+- Presentation of SEN LOC AFRIQUE
+- Mission
+- Values:
+  - Confiance
+  - Sécurité
+  - Professionnalisme
+  - Disponibilité
+
+4. Services
+- Location courte durée
+- Location longue durée
+- Location avec chauffeur
+- Véhicules pour entreprises
+- Transfert aéroport
+
+5. Testimonials
+Display customer reviews with ratings.
+
+6. Contact Page
+Display:
+- Phone: 0521387181
+- Mobile: +212 6 31 79 03 30
+- Mobile: +212 7 81 16 37 26
+- WhatsApp contact button
+- Google Maps integration placeholder
+- Contact form
+
+WhatsApp Integration:
+Use the primary WhatsApp number:
++212631790330
+
+Generate WhatsApp links automatically:
+https://wa.me/212631790330
+
+Example message:
+"Bonjour SEN LOC AFRIQUE, je souhaite obtenir un devis pour une location de véhicule."
+
+Additional Features:
+- Floating WhatsApp button on all pages
+- Sticky navigation bar
+- Vehicle search filter
+- FAQ section
+- Contact CTA on every page
+- SEO optimized metadata
+- Performance optimized images
+- Dark luxury theme
+
+Technical Stack:
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+- Framer Motion
+- Responsive Design
+
+Generate:
+- Complete project structure
+- All pages
+- Components
+- Sample vehicle data
+- SEO configuration
+- Production-ready code
