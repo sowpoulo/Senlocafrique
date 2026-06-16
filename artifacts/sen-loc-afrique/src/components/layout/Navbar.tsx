@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/flotte", label: "Notre Flotte" },
   { href: "/a-propos", label: "À Propos" },
   { href: "/services", label: "Services" },
+  { href: "/achat-vente", label: "Achat & Vente" },
   { href: "/temoignages", label: "Témoignages" },
   { href: "/contact", label: "Contact" },
 ];

@@ -7,18 +7,17 @@ import { Link } from "wouter";
 import { cars } from "@/data/cars";
 
 export default function Home() {
-  const featuredCars = cars.slice(0, 3); // Just pick 3 for preview
+  const featuredCars = cars.slice(0, 3);
 
   return (
     <Layout>
       {/* HERO SECTION */}
       <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden pt-20">
-        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-background z-10" />
-          <img 
-            src="/images/hero-bg.jpg" 
-            alt="Luxury car at night in Casablanca" 
+          <img
+            src="/images/hero-bg.jpg"
+            alt="Luxury car at night in Casablanca"
             className="w-full h-full object-cover object-center scale-105 animate-[pulse_20s_ease-in-out_infinite_alternate]"
             style={{ filter: "brightness(0.7) contrast(1.2)" }}
           />
@@ -34,12 +33,15 @@ export default function Home() {
             <span className="inline-block py-1 px-3 rounded-full border border-primary/30 text-primary text-sm font-medium tracking-widest uppercase mb-6 bg-black/30 backdrop-blur-sm">
               SEN LOC AFRIQUE
             </span>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-2xl">
-              Location de Voitures <br />
-              <span className="text-primary italic font-normal">à Casablanca</span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-2xl">
+              SEN LOC AFRIQUE
+              <br />
+              <span className="text-primary italic font-normal">
+                Location, Vente &amp; Export de Véhicules en Afrique de l'Ouest
+              </span>
             </h1>
             <p className="text-lg md:text-2xl text-gray-300 mb-10 font-light max-w-2xl mx-auto drop-shadow-lg">
-              Des véhicules fiables et adaptés à tous vos besoins. L'excellence au service de votre mobilité.
+              Votre partenaire de confiance pour la location, la vente et l'export de véhicules en Afrique de l'Ouest.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -53,7 +55,7 @@ export default function Home() {
                   Réserver via WhatsApp
                 </Button>
               </a>
-              
+
               <a href="tel:0521387181">
                 <Button variant="outline" size="lg" className="border-white/30 bg-black/20 backdrop-blur-sm text-white hover:bg-white hover:text-black font-bold rounded-full px-8 h-14 text-lg w-full sm:w-auto transition-all">
                   <Phone className="w-5 h-5 mr-2" />
@@ -64,8 +66,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        {/* Scroll indicator */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 1 }}
@@ -112,7 +113,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredCars.map((car, i) => (
-              <motion.div 
+              <motion.div
                 key={car.id}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -121,9 +122,9 @@ export default function Home() {
                 className="group rounded-2xl overflow-hidden bg-card border border-white/5 hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/5"
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-[#111]">
-                  <img 
-                    src={car.image} 
-                    alt={car.name} 
+                  <img
+                    src={car.image}
+                    alt={car.name}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
                     onError={(e) => { e.currentTarget.src = "/images/hero-bg.jpg" }}
                   />
@@ -141,7 +142,7 @@ export default function Home() {
                       <span className="text-xs text-muted-foreground uppercase tracking-wider">/ jour</span>
                     </div>
                   </div>
-                  
+
                   <div className="flex gap-4 mb-8 pb-6 border-b border-white/5">
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
                       <Settings2 className="w-4 h-4 text-primary" />
@@ -173,7 +174,7 @@ export default function Home() {
       {/* SERVICES TEASER */}
       <section className="py-24 bg-[#080808] relative overflow-hidden">
         <div className="absolute right-0 top-0 w-1/2 h-full bg-primary/5 blur-[150px] pointer-events-none rounded-full" />
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-primary font-medium tracking-widest uppercase text-sm mb-4 block">Notre Expertise</span>
@@ -212,7 +213,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link href="/services">
               <Button variant="link" className="text-primary hover:text-primary/80 text-lg group">
-                Découvrir tous nos services 
+                Découvrir tous nos services
                 <span className="ml-2 transition-transform group-hover:translate-x-1">→</span>
               </Button>
             </Link>
@@ -225,14 +226,14 @@ export default function Home() {
   );
 }
 
-// Helper icons
+// Helper icons (à laisser en bas)
 function Settings2(props: any) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinelinejoin="round" {...props}><path d="M20 7h-9"/><path d="M14 17H5"/><circle cx="17" cy="17" r="3"/><circle cx="7" cy="7" r="3"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="M20 7h-9"/><path d="M14 17H5"/><circle cx="17" cy="17" r="3"/><circle cx="7" cy="7" r="3"/></svg>
   );
 }
 function Droplets(props: any) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinelinejoin="round" {...props}><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/></svg>
   );
 }
